@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/background"
+    android:layout_marginBottom="10dp">
+
+    <EditText
+        android:id="@+id/etNombreProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:hint="@string/stHintNombreProducto"
+        android:textSize="18sp"
+        android:textColor="@color/btnText2"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/dmsans_normal"
+        android:padding="16dp"
+        android:autofillHints="autofillHintName"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/etCodigoBarras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:hint="@string/stHintCodigoBarras"
+        android:textSize="18sp"
+        android:textColor="@color/btnText2"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/dmsans_normal"
+        android:padding="16dp"
+        android:autofillHints="autofillHintBarcode"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etIngredientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:hint="@string/stHintIngredientes"
+        android:textSize="18sp"
+        android:textColor="@color/btnText2"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/dmsans_normal"
+        android:padding="16dp"
+        android:autofillHints="autofillHintIngredients"
+        android:inputType="textMultiLine"/>
+</LinearLayout>

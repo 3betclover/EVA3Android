@@ -1,0 +1,9 @@
+<resources>
+    <color name="background">#e6e6e6</color>
+    <color name="btnBackground">#EDDBC1</color>
+    <color name="btnBack">#5A3E1B</color>
+    <color name="foreground">#3d3d3d</color>
+    <color name="tColor">#FFFFFF</color>
+    <color name="btnText">#FFFFFF</color>
+    <color name="btnText2">#3d3d3d</color>
+</resources>

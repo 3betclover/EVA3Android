@@ -1,0 +1,27 @@
+<resources>
+    <string name="stSeTuAlergia">Sé tu alergia</string>
+    <string name="stSeleccionarAlergias">Selecciona una alergia</string>
+    <string name="stGluten">Cereales con Gluten</string>
+    <string name="stCrustaceos">Crustáceos y sus productos</string>
+    <string name="stHuevos">Huevos y sus productos</string>
+    <string name="stPescados">Pescados y productos pesqueros</string>
+    <string name="stMani">Maní, soya y sus productos</string>
+    <string name="stLeche">Leche y productos lácteos</string>
+    <string name="stNueces">Nueces y productos derivados</string>
+    <string name="stSulfito">Sulfito en concentraciones > 10mg/Kg</string>
+    <string name="stAlergiasSeleccionadas">Alergias seleccionadas:</string>
+    <string name="stContinuar">Continuar</string>
+    <string name="stAlergico">No eres alérgico!!!</string>
+    <string name="stEresAlergico">Cuidado este alimento puede generarte una reacción alérgica!!!</string>
+    <string name="stBDnotFound">El alimento no se encuentra registrado en nuestra base de datos</string>
+    <string name="stDescImagenNoAlergico">Imagen indicando que no eres alérgico</string>
+    <string name="stAppName">AlergiasApp</string>
+    <string name="stHintNombreProducto">Nombre del Producto</string>
+    <string name="stHintCodigoBarras">Código de Barras</string>
+    <string name="stHintIngredientes">Ingredientes</string>
+    <string name="stAgregarProducto">Agregar Producto</string>
+    <string name="stAgregarMasCampos">Agregar Más Campos</string>
+    <string name="stGuardarProductos">Guardar Productos</string>
+    <string name="stEliminar">Eliminar</string>
+
+</resources>

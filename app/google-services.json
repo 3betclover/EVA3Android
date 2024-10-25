@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "336018097222",
+    "project_id": "dbalergias",
+    "storage_bucket": "dbalergias.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336018097222:android:143a2bfb25c28b6ccb3647",
+        "android_client_info": {
+          "package_name": "com.example.alergiasapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4-RMlnbxxyIgUJLhjcz-CvjWMspdt6wI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

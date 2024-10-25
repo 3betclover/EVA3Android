@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:id="@+id/vwRegistrar"
+    android:backgroundTint="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro"
+        android:textSize="40sp"
+        android:textColor="@color/foreground"
+        android:fontFamily="@font/mono_normal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNombre"
+        android:textSize="20sp"
+        android:fontFamily="@font/mono_normal"
+        android:hint="Nombre"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etRut"
+        android:textSize="20sp"
+        android:fontFamily="@font/mono_normal"
+        android:hint="RUT"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:textSize="20sp"
+        android:hint="Contraseña"
+        android:fontFamily="@font/mono_normal"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAceptar"
+        android:text="Aceptar"
+        android:textSize="20sp"
+        android:fontFamily="@font/mono_normal"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/btnBack"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVolver"
+        android:text="Volver"
+        android:textSize="20sp"
+        android:fontFamily="@font/mono_normal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/btnBackground"
+        android:padding="15dp"
+        android:textColor="@color/btnText2"
+        />
+
+</LinearLayout>
